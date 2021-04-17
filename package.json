@@ -1,0 +1,36 @@
+{
+  "name": "project-stater",
+  "version": "1.0.0",
+  "description": "This is a static site project starter boilarplate.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "develop": "gulp develop",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "gulp project starter"
+  ],
+  "author": "Hasibur Rahman",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-line-ending-corrector": "^1.0.3",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
